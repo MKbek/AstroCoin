@@ -1,6 +1,12 @@
 # AstroCoin
 
-![AstroCoin main site](banner.png)
+<a href="https://astrocoin.uz/">
+  <img
+    src="./banner.png"
+    alt="Hoppscotch"
+    width="100%"
+    />
+</a>
 
 ## About Project
 This project for Astrum IT Academy from my team [Astrum Lab.](https://github.com/astrum-lab)
