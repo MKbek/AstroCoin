@@ -13,11 +13,11 @@ import {
 
 const members = [
   {
-    avatar: 'https://www.github.com/mxbek.png',
+    avatar: 'https://www.github.com/mkbek.png',
     name: 'Muhammadqodir Khudoyorkhonov',
     title: 'Fullstack Developer & UI/UX Designer',
     links: [
-      { icon: 'github', link: 'https://github.com/mxbek' },
+      { icon: 'github', link: 'https://github.com/mkbek' },
       { icon: 'twitter', link: 'https://twitter.com/muhammadiy_k' },
       { icon: 'instagram', link: 'https://www.instagram.com/muhammadiy.k/' }
     ]
@@ -37,7 +37,7 @@ const members = [
     title: 'Backend Developer',
     links: [
       { icon: 'github', link: 'https://github.com/uubek' },
-      { icon: 'instagram', link: 'https://www.instagram.com/uubek/' }
+      { icon: 'instagram', link: 'https://www.instagram.com/uu.bek/' }
     ]
   },
   {
@@ -59,16 +59,7 @@ const members = [
       { icon: 'twitter', link: 'https://twitter.com/yorvoration' },
       { icon: 'instagram', link: 'https://www.instagram.com/yorvoration_programmer' }
     ]
-  },
-  {
-    avatar: 'https://github.com/Marufibragimov11.png',
-    name: 'Maruf Ibragimov',
-    title: 'Data Scientist',
-    links: [
-      { icon: 'github', link: 'https://github.com/Marufibragimov11' },
-      { icon: 'instagram', link: 'https://www.instagram.com/maruf_ibragimov_11/' }
-    ]
-  },
+  }
 ]
 </script>
 

@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 :root {
     --vp-c-brand: #646cff;
     --vp-c-brand-light: #747bff;
@@ -12,15 +16,26 @@
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(
             292deg,
+            #ddab64,
+            #646cff
+    );
+    --vp-home-hero-image-background-image: linear-gradient(
+            rgb(190 145 81),
+            rgb(198 144 80)
+    );
+    --vp-home-hero-image-filter: blur(40px);
+}
+
+html.dark:root {
+    --vp-home-hero-name-background: linear-gradient(
+            292deg,
             #C58F4F,
             #454ce1
     );
-
     --vp-home-hero-image-background-image: linear-gradient(
             rgb(197 143 79),
             rgb(151 102 39)
     );
-    --vp-home-hero-image-filter: blur(40px);
 }
 
 .VPHero .VPImage.image-src {

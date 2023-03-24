@@ -1,11 +1,9 @@
-import pkg from '../../package.json'
-
 export default {
   lang: 'en-US',
 
   outline: [2, 3],
   title: 'AstroCoin',
-  description: 'Just playing around.',
+  description: 'The currency for the Astrum IT Academy',
   head: [
     ['link', { rel: 'icon', href: '/coin.webp' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -17,19 +15,21 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
 
+  devServer: {
+    https: true
+  },
+
   markdown: {
     headers: {
       level: [0, 0]
     }
   },
 
+
+  appearance: false,
   themeConfig: {
     logo: '/coin.webp',
-    colorMode: false,
     nav: nav(),
-    sidebar: [
-
-    ],
     socialLinks: socials(),
     footer: {
       // message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
@@ -40,14 +40,36 @@ export default {
 
 function nav() {
   return [
-    { text: 'Our Team', link: '/team' },
-    { text: 'Links',
-      collapsed: false,
+    {
+      text: 'Our Team',
+      link: '/team'
+    },
+    {
+      text: 'Get Apps',
       items: [
-        { text: 'Wallet', link: 'https://wallet.astrocoin.uz'},
-        { text: 'Store', link: 'https://store.astrocoin.uz'},
+        {
+          text: 'for Android',
+          link: 'https://play.google.com/store/apps/details?id=app.app.astrocoin'
+        },
+        {
+          text: 'for iOS',
+          link: 'https://apps.apple.com/ru/app/telegram-messenger/id686449807',
+        },
       ]
     },
+    {
+      text: 'Links',
+      items: [
+        {
+          text: 'Wallet',
+          link: 'https://wallet.astrocoin.uz'
+        },
+        {
+          text: 'Store',
+          link: 'https://store.astrocoin.uz',
+        },
+      ]
+    }
   ]
 }
 

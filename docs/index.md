@@ -26,7 +26,7 @@ features:
     details: Coin monitoring, and a convenient interface for transferring and receiving coins
   - icon: 🧺
     title: AstroCoin Store - with a large assortment
-    details: Types are inferred, which means stores provide you with autocompletion even in JavaScript!
+    details: Students can also purchase various valuable gifts on the market using these coins.
   - icon: 🚀
     title: Transfers are instant
     details: Transfer or ask for coins from friends, and the transfer will be carried out instantly
