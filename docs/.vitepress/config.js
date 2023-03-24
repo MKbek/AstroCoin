@@ -53,7 +53,7 @@ function nav() {
         },
         {
           text: 'for iOS',
-          link: 'https://apps.apple.com/ru/app/telegram-messenger/id686449807',
+          link: 'https://apps.apple.com/',
         },
       ]
     },
