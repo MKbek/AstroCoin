@@ -19,6 +19,10 @@ hero:
       text: Already using
       linkText: AstroCoin
       link: https://wallet.astrocoin.uz/
+    - theme: get googleplay
+      text: Google Play
+      linkText: get
+      link: https://play.google.com/store/apps/details?id=app.app.astrocoin
 
 features:
   - icon: 👛

@@ -1,0 +1,72 @@
+
+a.get {
+    text-align: center;
+    border-radius: 8px;
+    border-color: var(--vp-button-alt-border);
+}
+
+a.get:hover {
+    border-color: var(--vp-c-brand);
+    background-color: var(--c-bg-accent);
+}
+
+a.get::after {
+    content: 'GET IT ON';
+    position: absolute;
+    display: block;
+    font-size: 8px;
+    top: -2px;
+    left: 42px;
+}
+
+a.get.appstore {
+    position: relative;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    padding-top: 12px !important;
+    padding-left: 42px !important;
+    padding-right: 10px !important;
+    line-height: 25px !important;
+}
+
+a.get.appstore::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../../apple.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 10px;
+}
+
+a.get.googleplay {
+    position: relative;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    padding-top: 12px !important;
+    padding-left: 42px !important;
+    padding-right: 10px !important;
+    line-height: 25px !important;
+}
+
+a.get.googleplay::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../../googleplay.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 10px;
+}

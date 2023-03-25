@@ -48,12 +48,8 @@ function nav() {
       text: 'Get Apps',
       items: [
         {
-          text: 'for Android',
+          text: 'Google Play',
           link: 'https://play.google.com/store/apps/details?id=app.app.astrocoin'
-        },
-        {
-          text: 'for iOS',
-          link: 'https://apps.apple.com/',
         },
       ]
     },
