@@ -38,3 +38,26 @@ features:
     title: Mobile application
     details: We will soon release a mobile app for iOS devices
 ---
+
+<script setup>
+import {onMounted} from "vue";
+
+const iosDeviceStatus = [
+        'iPad Simulator',
+        'iPhone Simulator',
+        'iPod Simulator',
+        'iPad',
+        'iPhone',
+        'iPod'
+      ].includes(navigator.platform)
+      // iPad on iOS 13 detection
+      || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+const removeButton = () => {
+    document.querySelector('.googleplay').style.display = 'none'
+}
+onMounted(() => {
+    if (iosDeviceStatus) {
+        removeButton()
+    }
+})
+</script>
