@@ -36,5 +36,5 @@ features:
     details: Transfer or ask for coins from friends, and the transfer will be carried out instantly
   - icon: 📱
     title: Mobile application
-    details: We will soon release a mobile app for both Android and iOS devices
+    details: We will soon release a mobile app for iOS devices
 ---
