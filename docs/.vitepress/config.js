@@ -5,7 +5,7 @@ export default {
   title: 'AstroCoin',
   description: 'The currency for the Astrum IT Academy',
   head: [
-    ['link', { rel: 'icon', href: '/coin.webp' }],
+    ['link', { rel: 'icon', href: 'https://cdn.astrocoin.uz/icons/96a9519b8fddd17e8cc4bba0408ffffd.webp' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -28,7 +28,7 @@ export default {
 
   appearance: false,
   themeConfig: {
-    logo: '/coin.webp',
+    logo: 'https://cdn.astrocoin.uz/icons/96a9519b8fddd17e8cc4bba0408ffffd.webp',
     nav: nav(),
     socialLinks: socials(),
     footer: {

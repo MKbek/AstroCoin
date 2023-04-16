@@ -36,7 +36,7 @@ a.get.appstore::before {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('https://astrocoin.uz/apple.svg');
+    background-image: url('https://cdn.astrocoin.uz/icons/1f3870be274f6c49b3e31a0c6728957f.svg');
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -62,7 +62,7 @@ a.get.googleplay::before {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('https://astrocoin.uz/googleplay.svg');
+    background-image: url('https://cdn.astrocoin.uz/icons/d5ffa3de7deb1346b52ef191db59ef70.svg');
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: bottom;

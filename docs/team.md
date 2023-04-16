@@ -51,13 +51,13 @@ const members = [
     ]
   },
   {
-    avatar: 'https://www.github.com/Yorvoration.png',
+    avatar: 'https://www.github.com/to-rex.png',
     name: 'Dilshodjon Haydarov',
     title: 'Flutter Developer',
     links: [
-      { icon: 'github', link: 'https://github.com/yorvoration' },
+      { icon: 'github', link: 'https://github.com/to-rex' },
       { icon: 'twitter', link: 'https://twitter.com/yorvoration' },
-      { icon: 'instagram', link: 'https://www.instagram.com/yorvoration_programmer' }
+      { icon: 'instagram', link: 'https://www.instagram.com/torex.dev' }
     ]
   }
 ]

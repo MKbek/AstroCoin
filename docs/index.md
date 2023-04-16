@@ -9,7 +9,7 @@ hero:
   text: The currency for the Astrum IT Academy 
   tagline: You can use AstroCoin to buy courses, books, and other things in the Astrum IT Academy store.
   image:
-    src: /coin.webp
+    src: https://cdn.astrocoin.uz/icons/96a9519b8fddd17e8cc4bba0408ffffd.webp
     alt: AstroCoin
   actions:
     - theme: brand
