@@ -1,5 +1,6 @@
-import Theme from "vitepress/theme";
-import './vars.css'
+// .vitepress/theme/index.js
+import DefaultTheme from 'vitepress/theme'
+import './custom.css'
 import './home-links.css'
 
-export default Theme
+export default DefaultTheme
