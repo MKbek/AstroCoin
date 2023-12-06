@@ -13,6 +13,8 @@
     --vp-c-brand-darkest: #0000ff;
     --vp-c-brand-transparent: rgba(100, 108, 255, 0.1);
 
+    --vp-c-bg-soft-down: transparent;
+
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(
             292deg,
