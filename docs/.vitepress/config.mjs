@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'AstroCoin',
   description: 'The currency for the Astrum IT Academy',
   head: [
-    ['link', { rel: 'icon', href: 'https://camo.githubusercontent.com/9cca37250e98e4949613addec14e065d4800910ec0f3f77b0a1ff4652e59b10b/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f616c706861636f6e74726f6c2e61707073706f742e636f6d2f636f696e2e77656270' }],
+    ['link', { rel: 'icon', href: 'https://storage.googleapis.com/alphacontrol.appspot.com/astrocoin.webp' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -31,12 +31,12 @@ export default defineConfig({
 
   appearance: false,
   themeConfig: {
-    logo: 'https://camo.githubusercontent.com/9cca37250e98e4949613addec14e065d4800910ec0f3f77b0a1ff4652e59b10b/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f616c706861636f6e74726f6c2e61707073706f742e636f6d2f636f696e2e77656270',
+    logo: 'https://storage.googleapis.com/alphacontrol.appspot.com/astrocoin.webp',
     nav: nav(),
     socialLinks: socials(),
     footer: {
       // message: 'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
-      copyright: 'Copyright © 2021 <a href="https://github.com/astrum-lab">Astrum Lab.</a> Made by <a href="https://sombra.uz">Sombra</a>.',
+      copyright: 'Copyright © 2021 <a href="https://github.com/astrum-lab">Astrum Lab.</a> Designed by <a href="https://sombra.uz">Sombra</a>.',
     }
   },
 })
